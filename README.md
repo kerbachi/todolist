@@ -40,3 +40,10 @@ npm run reset-project
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
+# Publish an update to expo
+
+```
+eas update --channel [channel-name] --message "[message]"
+```
+
+https://docs.expo.dev/eas-update/getting-started/#publish-an-update
