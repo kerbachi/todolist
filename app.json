@@ -10,12 +10,16 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.expohaux.react-native-todolist"
+      "bundleIdentifier": "com.expohaux.react-native-todolist",
+      "runtimeVersion": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
     "web": {
@@ -28,7 +32,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/BTC-stock-crash.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -46,6 +50,9 @@
         "projectId": "9bdd0052-fbc1-4a84-96c5-68c00edc5365"
       }
     },
-    "owner": "expohaux"
+    "owner": "expohaux",
+    "updates": {
+      "url": "https://u.expo.dev/9bdd0052-fbc1-4a84-96c5-68c00edc5365"
+    }
   }
 }

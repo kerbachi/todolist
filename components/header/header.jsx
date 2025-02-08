@@ -1,6 +1,6 @@
 import { Image, Text } from "react-native";
 import { s } from "./header.style";
-import logoImg from "../../assets/images/BTC-stock-crash2.png";
+import logoImg from "../../assets/images/logo.png";
 
 export function Header() {
   return (
